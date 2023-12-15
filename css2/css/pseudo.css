@@ -1,0 +1,12 @@
+p:first-child {
+  color: aqua;
+}
+a[href^="facebook"]:hover {
+  color: green;
+}
+a[href*="instagram"]:focus {
+  color: red;
+}
+p:nth-child(4) {
+  color: rgb(0, 255, 136);
+}

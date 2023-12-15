@@ -1,0 +1,278 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 600px;
+  border: 5px solid brown;
+  margin: 50px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+}
+/* AKHIR RESET CSS */
+
+/* Latihan -1 */
+
+.container-satu {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: lightskyblue;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utama {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-satu {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-dua {
+  flex: 1;
+  order: 3;
+}
+
+/* Latihan 2 */
+.container-dua {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+  padding: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.layanan.satu {
+  background-color: lightblue;
+}
+
+.layanan.dua {
+  background-color: lightgreen;
+}
+
+.layanan.tiga {
+  background-color: lightsalmon;
+}
+
+/* Latihan 3 */
+.container-tiga {
+  border: 5px solid red;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.galeri img {
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Latihan 4 */
+.container-empat {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.card {
+  border: 1px solid aqua;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(39, 113, 224);
+  margin: 10px;
+  flex: 1;
+}
+
+.card.dua {
+  transform: scale(1.17);
+}
+
+.card .header {
+  background-color: lightblue;
+  height: 150px;
+}
+
+.card .content {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Latihan 5 */
+
+.container-lima {
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+  border: 5px solid red;
+  display: flex;
+}
+
+.kotak {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.kotak span {
+  margin: auto;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+}

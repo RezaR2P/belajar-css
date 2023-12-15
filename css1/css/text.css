@@ -1,0 +1,17 @@
+h1 {
+  font-family: Georgia;
+  font-size: 40px;
+}
+
+.credit {
+  font-family: verdana;
+  text-decoration: none;
+}
+
+p.tautan {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p.intro {
+  font-family: "segoe UI";
+}

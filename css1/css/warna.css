@@ -1,0 +1,37 @@
+h2 {
+    color: rgb(129, 68, 243);
+}
+
+h1 {
+    color: #32dd4e;
+}
+
+body {
+    background-color: #efefef;
+    color: #efefef;
+}
+
+#artikel {
+    background-color: rgb(61, 42, 97);
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(83, 55, 134);
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgba(83, 55, 134,0.5);
+    padding: 10px;
+}
+.paragraf1 {
+    background-color: hsl(hue, saturation, lightness);
+    padding: 10px;
+}
+
+.paragraf2 {
+    background-color: hsla(hue, saturation, lightness, alpha);
+    padding: 10px;
+}
+

@@ -1,0 +1,22 @@
+/* Universal Selector */
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  color: darkorchid;
+  width: 300px;
+}
+
+h1 {
+  border: dotted red;
+}
+
+.makan {
+  color: goldenrod;
+}

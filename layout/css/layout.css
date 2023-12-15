@@ -1,0 +1,37 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: fantasy;
+}
+
+#header h1 {
+  background-color: lightcyan;
+  text-align: center;
+}
+
+#nav li {
+  display: inline;
+  padding: 5px;
+}
+
+#nav,
+#highlight,
+#footer {
+  text-align: center;
+  background-color: lightcyan;
+  margin: 10px;
+  padding: 10px;
+}
+
+.article {
+  background-color: lightcyan;
+  float: left;
+  width: calc(320px - 10px - 10px - 10px - 10px);
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+}

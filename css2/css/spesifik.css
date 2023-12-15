@@ -1,0 +1,16 @@
+a[title] {
+  background-color: aqua;
+}
+
+input[type="text"] {
+  background-color: red;
+}
+
+a[href^="http"] {
+  background-color: darkgreen;
+}
+
+[class*="btn"] {
+  background-color: black;
+  color: white;
+}

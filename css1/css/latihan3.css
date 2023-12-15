@@ -1,0 +1,105 @@
+.box1 {
+  width: 300px;
+  height: 100px;
+  background-color: aqua;
+}
+.box1 p {
+  background-color: blue;
+  width: 65%;
+  height: 80%;
+}
+
+.box2 {
+  background-color: rebeccapurple;
+  color: white;
+  width: 400px;
+  height: 200px;
+}
+
+.box2 p {
+  height: 40%;
+  width: 60%;
+  background-color: brown;
+}
+
+.box2 h2 {
+  background-color: greenyellow;
+  width: 50%;
+  height: 20%;
+}
+
+td {
+  background-color: gold;
+}
+
+.deskripsi {
+  min-width: 200px;
+  max-width: 400px;
+}
+
+h2,
+h3 {
+  color: rgb(34, 14, 218);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+p.satu {
+  height: 30px;
+  width: 200px;
+  overflow: hidden;
+}
+
+p.dua {
+  height: 100px;
+  width: 200px;
+  overflow: scroll;
+}
+
+p.tiga {
+  height: 100px;
+  width: 200px;
+  overflow: auto;
+}
+
+.hello {
+  text-align: center;
+  width: fit-content;
+  background-color: aqua;
+  height: fit-content;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+
+  border: 4px solid red;
+}
+
+p.hello b {
+  text-align: center;
+  font-weight: bold;
+
+  color: white;
+  background-color: black;
+}
+
+.box4 {
+  font-size: 36px;
+  width: fit-content;
+  height: fit-content;
+  background-color: chartreuse;
+
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border: 5px solid darkolivegreen;
+}

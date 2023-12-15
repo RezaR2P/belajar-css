@@ -1,0 +1,44 @@
+* {
+  font-family: verdana;
+  text-align: center;
+}
+
+.asep {
+  padding: 4px;
+  background-color: aqua;
+  width: 80px;
+  height: 50px;
+}
+
+.tatang {
+  padding: 5px 10px;
+  background-color: green;
+  width: 120px;
+  height: 70px;
+}
+
+.eza {
+  padding: 5px 10px 15px;
+  background-color: rgb(118, 23, 207);
+  width: 120px;
+  height: 70px;
+}
+
+.dudul {
+  padding: 5px 10px 15px 20px;
+  background-color: rgb(228, 115, 10);
+  width: 120px;
+  height: 60px;
+}
+
+.inline {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: brown;
+  padding-inline-start: 10px; /* Padding kiri dalam arah inline */
+  padding-inline-end: 15px; /* Padding kanan dalam arah inline */
+}
+
+.block {
+  background-color: blue;
+}

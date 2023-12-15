@@ -1,0 +1,17 @@
+
+        body{
+            background-color: darkviolet;
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: greenyellow;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        b{
+            color: blue;
+        }
+        i{
+            color: yellow;
+        }

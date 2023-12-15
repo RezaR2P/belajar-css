@@ -1,0 +1,25 @@
+* {
+  font-family: fantasy;
+}
+
+h2 {
+  background-color: blueviolet;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 10px;
+}
+
+.judul-1 {
+  position: sticky;
+  top: 0px;
+}
+
+.judul-2 {
+  position: sticky;
+  top: 40px;
+}
+
+.judul-3 {
+  position: sticky;
+  bottom: 0px;
+}

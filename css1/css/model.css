@@ -1,0 +1,23 @@
+* {
+  font-family: helvetica;
+}
+
+.content {
+  background-color: aqua;
+  font-size: 30px;
+  text-align: center;
+  width: 120px;
+  height: 70px;
+
+  border: 20px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.container {
+  background-color: blueviolet;
+  width: 220px;
+  height: 170px;
+
+  border: 2px solid rgb(238, 6, 6);
+}

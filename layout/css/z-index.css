@@ -1,0 +1,19 @@
+* {
+  font-family: fantasy;
+}
+
+.z-index {
+  position: fixed;
+  background-color: aqua;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+}
+
+.container {
+  position: relative;
+  height: 100px;
+  padding-top: 100px;
+  z-index: 2;
+}

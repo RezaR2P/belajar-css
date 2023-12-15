@@ -1,0 +1,23 @@
+* {
+    font-family: arial;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: blue;
+}
+
+b {
+    color: saddlebrown; /* Level 1 */
+}
+
+p b{
+    color: darkgreen; /* Level 2 */
+}
+
+b {
+    color: aqua !important; /* Level 3 */
+}

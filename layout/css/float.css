@@ -1,0 +1,19 @@
+* {
+  font-family: tahoma;
+}
+
+blockquote {
+  float: right;
+  font-family: fantasy;
+  font-style: italic;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-transform: capitalize;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,39 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 30px;
+}
+
+.artikel {
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.penulis {
+  color: crimson;
+}
+
+.tanggal {
+  color: darkred;
+}
+
+#artikel1 {
+  color: cyan;
+}
+
+p > span {
+  color: blueviolet;
+}
+
+h3 + p {
+  color: gray;
+  font-size: 14px;
+}
+
+h1 ~ p {
+  text-align: justify;
+}

@@ -1,0 +1,105 @@
+#ADJACENT SELECTOR
+(selektor bersebelahan) adalah jenis selektor dalam CSS yang digunakan untuk memilih elemen HTML yang berdekatan secara langsung dengan elemen target. Adjacent selector menggambarkan hubungan di mana elemen yang dipilih adalah saudara sejajar (sibling) dari elemen target dan berada tepat setelahnya dalam dokumen HTML. Adjacent selector ditandai dengan tanda "+" (plus).
+Contoh sederhana penggunaan adjacent selector adalah sebagai berikut:
+h2 + p {
+  font-weight: bold;
+}
+maka yg akan jadi bold adalah p
+
+#ATTRIBUT SELECTOR
+dalam CSS digunakan untuk memilih elemen HTML berdasarkan atributnya. Anda dapat menentukan aturan CSS yang akan diterapkan pada elemen-elemen yang memiliki atribut tertentu atau atribut dengan nilai tertentu. Selector atribut dibentuk dengan menggunakan tanda kurung siku [].
+Berikut adalah beberapa contoh penggunaan selector atribut:
+1.Memilih elemen dengan atribut tertentu:
+a[title] {
+  color: red;
+}
+Aturan CSS di atas akan mengubah warna teks dari semua tautan <a> yang memiliki atribut "title". Ini akan memengaruhi tautan-tautan seperti <a href="..." title="Tautan dengan judul">.
+2.Memilih elemen dengan atribut dan nilai tertentu:
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+Aturan CSS di atas akan memengaruhi semua elemen input dengan atribut "type" yang memiliki nilai "text". Ini akan memengaruhi elemen-elemen seperti <input type="text">.
+3.Memilih elemen dengan atribut yang mengandung nilai tertentu:
+[class*="btn"] {
+  background-color: #007bff;
+  color: white;
+}
+Aturan CSS di atas akan memengaruhi semua elemen yang memiliki atribut class yang mengandung string "btn". Ini akan memengaruhi elemen-elemen dengan atribut class seperti <div class="btn-primary"> atau <button class="btn-secondary">.
+4.Memilih elemen dengan atribut yang diawali dengan nilai tertentu:		
+[href^="https://"] {
+  color: green;
+}
+Aturan CSS di atas akan memengaruhi semua tautan <a> yang memiliki atribut "href" yang diawali dengan "https://". Ini akan memengaruhi tautan-tautan yang mengarah ke situs web yang menggunakan protokol HTTPS.
+
+#PSEUDO CLASS
+adalah selector yang digunakan untuk memilih elemen berdasarkan keadaan atau sifatnya.
+Berikut adalah beberapa pseudo-class umum yang sering digunakan:
+
+    :hover: Digunakan untuk memilih elemen saat kursor mouse berada di atasnya (hover).
+
+    :active: Digunakan untuk memilih elemen saat elemen tersebut aktif, seperti saat tombol mouse ditekan atau elemen form di-klik.
+
+    :visited: Digunakan untuk memilih elemen saat elemen tersebut telah diklik dan kembali lagi, maka link elemnet akan berubah.
+
+    :focus: Digunakan untuk memilih elemen saat elemen tersebut dalam fokus, misalnya ketika elemen input menerima fokus dengan klik atau dengan menggunakan tombol tab.
+
+    :first-child: Digunakan untuk memilih elemen pertama dalam elemen induknya.
+
+    :last-child: Digunakan untuk memilih elemen terakhir dalam elemen induknya.
+
+    :nth-child(n): Digunakan untuk memilih elemen berdasarkan urutan mereka dalam elemen induk. Anda dapat menentukan nilai n yang berbeda untuk memilih elemen dengan urutan tertentu.
+
+    :not(selector): Digunakan untuk memilih elemen yang tidak sesuai dengan selektor yang ditentukan.
+
+    :nth-of-type(n): Mirip dengan :nth-child, tetapi memilih elemen berdasarkan urutan mereka dalam elemen induk dengan tipe yang sama.
+
+    :nth-last-child(n): Mirip dengan :nth-child, tetapi memilih elemen berdasarkan urutan mereka dalam elemen induk dari akhir.
+
+    :nth-last-of-type(n): Mirip dengan :nth-of-type, tetapi memilih elemen berdasarkan urutan mereka dalam elemen induk dari akhir dengan tipe yang sama.
+
+    :first-of-type: Memilih elemen yang merupakan elemen pertama dari tipe tertentu dalam elemen induk.
+
+    :last-of-type: Memilih elemen yang merupakan elemen terakhir dari tipe tertentu dalam elemen induk.
+
+    :only-child: Memilih elemen yang adalah satu-satunya elemen dalam elemen induknya.
+
+    :only-of-type: Memilih elemen yang adalah satu-satunya elemen dari tipe tertentu dalam elemen induknya.
+
+    :checked: Digunakan untuk memilih elemen input yang telah dicentang, seperti kotak centang (checkbox) atau tombol radio (radio button).
+
+    :enabled dan :disabled: Digunakan untuk memilih elemen input yang diaktifkan atau dinonaktifkan.
+
+    :empty: Digunakan untuk memilih elemen yang tidak memiliki konten atau hanya memiliki konten kosong.
+
+#PSEUDO ELEMENT
+adalah cara untuk memilih dan memodifikasi bagian-bagian tertentu dari suatu elemen HTML. Pseudo-elements dimulai dengan :: (kemudian diganti dengan : dalam versi CSS yang lebih lama).
+Berikut beberapa pseudo-elements umum yang dapat digunakan dalam CSS:
+
+    ::before: Digunakan untuk menambahkan isi sebelum elemen yang dipilih. Anda dapat menggabungkan teks atau konten lain sebelum elemen tersebut.
+
+    ::after: Digunakan untuk menambahkan isi setelah elemen yang dipilih. Ini sering digunakan untuk menambahkan dekorasi seperti ikon atau tanda panah setelah elemen.
+
+    ::first-line: Digunakan untuk memilih dan memodifikasi baris pertama dalam elemen teks. Ini memungkinkan Anda untuk mengubah gaya teks seperti font, warna, atau margin untuk baris pertama.
+
+    ::first-letter: Digunakan untuk memilih dan memodifikasi huruf pertama dalam elemen teks. Ini berguna untuk memberikan efek khusus pada huruf pertama, seperti mengubah ukuran huruf atau memberikan hiasan.
+
+    ::selection: Digunakan untuk mengganti tampilan teks yang dipilih oleh pengguna. Anda dapat mengubah warna latar belakang dan warna teks teks yang dipilih.
+
+    ::placeholder: Digunakan untuk mengganti tampilan teks placeholder dalam elemen input, seperti input teks atau textarea. Anda dapat mengubah warna, font, atau gaya placeholder.
+
+    ::marker: Digunakan untuk mengganti tampilan penanda (marker) pada elemen yang berisi daftar (list), seperti <li> dalam elemen <ul> atau <ol>.
+
+    ::backdrop: Digunakan untuk mengubah tampilan lapisan belakang elemen dalam mode baca layar.
+
+#TEXT TRANSFORM
+dalam CSS digunakan untuk mengubah tampilan teks dengan mengendalikan gaya huruf, seperti mengubahnya menjadi huruf besar (uppercase), huruf kecil (lowercase), atau mengganti huruf pertama setiap kata dengan huruf besar (capitalize). 
+Berikut adalah beberapa nilai yang dapat digunakan untuk properti text-transform:
+    uppercase: Mengubah semua huruf dalam teks menjadi huruf besar.
+    lowercase: Mengubah semua huruf dalam teks menjadi huruf kecil.
+    capitalize: Mengubah huruf pertama setiap kata dalam teks menjadi huruf besar.
+    none (default): Tidak melakukan transformasi terhadap teks, teks ditampilkan sesuai dengan penulisan aslinya.
+    upper-roman: kita juga bisa mngubah text dengan gabungan
+
+#LETTER SPACING DAN LINE HEIGHT
+line-height: untukmenga
+

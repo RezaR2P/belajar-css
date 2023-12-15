@@ -1,0 +1,268 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: fantasy;
+  background-image: url(/img/webb-dark.png);
+  background-size: cover;
+}
+.topbar {
+  position: fixed;
+  background-color: skyblue;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 5px solid salmon;
+  z-index: 9999;
+}
+
+#container {
+  width: 960px;
+  margin: 70px auto;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.ig {
+  position: absolute;
+  right: -16px;
+  text-indent: -9999px;
+  height: 96px;
+  width: 96px;
+  background-image: url(/img/96/Facebook.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+#header h1 {
+  padding: 10px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+#nav a:hover {
+  background-color: salmon;
+  color: white;
+}
+
+#hero {
+  background-image: url(/img/alamak.png);
+  border-top: 10px solid skyblue;
+  border-bottom: 10px solid salmon;
+  background-repeat: no-repeat;
+  background-size: 960px 450px;
+  height: 450px;
+}
+
+#main {
+  padding: 20px;
+  width: 600px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#main h2 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.credit {
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+#main .article {
+  padding: 10px;
+}
+
+#main p a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#main p a:hover {
+  color: salmon;
+}
+
+#sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#sidebar h3 {
+  font-size: 18px;
+  margin: 8px;
+}
+
+#sidebar img {
+  width: 130px;
+  height: 130px;
+  padding-right: 10px;
+  float: left;
+}
+
+#sidebar p {
+  font: 12px/18px fantasy;
+}
+
+#footer {
+  text-align: center;
+  background-color: rgb(29, 31, 31);
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
